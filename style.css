@@ -1,6 +1,6 @@
-body{background-color:burlywood}
+body{background-color:beige}
 body{color: black;}
-h1{color: black; border: 5px solid white; margin: 50px 50px 50px 50px; text-align: center;}
+h1{color: black; border: 3px solid black; margin: 45px 45px 45px 45px; text-align: center;}
 
 
 
@@ -9,7 +9,7 @@ div.fixed {
     bottom: 0;
     right: 0;
     width: 300px;
-    border: 3px solid white;
+    border: 3px solid black;
   }
 
 a{text-align: center;}
@@ -25,3 +25,6 @@ img {
 }
 
 
+p {
+  font-family: "Times New Roman", Times, serif;
+}
