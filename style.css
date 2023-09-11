@@ -4,7 +4,21 @@ body{
 
 
 body{color: black;}
-h1{color: black; border: 3px solid black; margin: 45px 45px 45px 45px; text-align: center;}
+
+header{
+  position: sticky;
+  
+}
+
+h1{
+  color: black; 
+  border: 3px solid black; 
+  margin: 45px 45px 45px 45px; 
+  text-align: center;
+  font-size: 1.1cm; 
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-style: italic;
+}
 
 
 
@@ -14,9 +28,35 @@ div.fixed {
     right: 0;
     width: 300px;
     border: 3px solid black;
+    font-size: 115%;
   }
 
-a{text-align: center;}
+
+#fotolog{
+  width: 90%
+}
+#llave{
+  width: 90%;
+}
+
+#divPadre{
+  display: inline-flex;
+}
+
+#div1{
+  border: 1px solid red;
+  width: 50%;
+}
+#div2{
+  border: 1px solid red;
+  width: 50%;
+  padding: 50px;
+}
+
+a{text-align: center;
+  color: black;  
+}
+
 h3{text-align: center;}
 p{text-align: center;}
 
@@ -29,6 +69,5 @@ img {
 }
 
 
-p {
-  font-family: "Times New Roman", Times, serif;
+p { font-family: Arial, Helvetica, sans-serif;
 }
