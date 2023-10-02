@@ -3,6 +3,8 @@ body{
     }
 
 
+
+
 body{color: black;}
 
 #encabezado{
@@ -105,3 +107,40 @@ p { font-family: Arial, Helvetica, sans-serif;
 #copy{
   text-align: center;
 }
+
+
+
+.flex-container {
+  display: flex;
+  background-color: beige;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+.flex-container img {
+  max-width: 100%; 
+  height: auto;    
+  margin: 10px;
+  width: 350px;    
+}
+
+
+
+
+@media screen and (max-width: 850px) { 
+
+  body {
+    background-color:white
+  }
+
+  #final{
+    display: none;
+  }
+
+  .flex-container{
+    flex-direction: column;
+  }
+
+  }
