@@ -71,6 +71,13 @@ img {
   width: 40%;
 }
 
+#llave{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+}
+
 p { font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -119,7 +126,7 @@ p { font-family: Arial, Helvetica, sans-serif;
   align-content: space-around;
 }
 
-.flex-container img {
+.img1 {
   max-width: 100%; 
   height: auto;    
   margin: 10px;
@@ -129,18 +136,25 @@ p { font-family: Arial, Helvetica, sans-serif;
 
 
 
-@media screen and (max-width: 850px) { 
-
-  body {
-    background-color:white
-  }
+@media only screen and (max-width: 650px) { 
 
   #final{
     display: none;
   }
 
   .flex-container{
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
   }
+
+  .img1{
+    width: 150px;
+    height: 250px;
+  }
+
+
 
   }
