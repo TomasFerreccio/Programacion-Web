@@ -1,0 +1,52 @@
+body{
+    background-color: beige;
+}
+
+
+#encabezado{
+    top: 0;
+    padding: 5px;
+}
+
+#titulo{
+    color: black; 
+    background-color: rgb(255, 255, 220);
+    border: 3px solid black; 
+    margin: 45px 45px 45px 45px; 
+    text-align: center;
+    font-size: 1.1cm; 
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-style: italic;
+} 
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+h3{
+    text-align: center;
+}
+#p1{
+    text-align: left;
+}
+#p2{
+    text-align: right;
+}
+
+
+img{
+    width: auto;
+    height: 80%;
+    border: 1px solid goldenrod;
+    
+}
+
+#resultado{
+    text-align: center;
+    font-size: 600%;
+}

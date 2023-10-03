@@ -1,0 +1,107 @@
+body{
+    background-color: beige;
+}
+
+
+#encabezado{
+    top: 0;
+    padding: 5px;
+}
+
+#titulo{
+    color: black; 
+    background-color: rgb(255, 255, 220);
+    border: 3px solid black; 
+    margin: 45px 45px 45px 45px; 
+    text-align: center;
+    font-size: 1.1cm; 
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-style: italic;
+} 
+
+#napvar{
+    color: black; 
+    background-color: rgb(255, 255, 220);
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-style: italic;
+    
+}
+
+#grupos{
+font-family: arial,sans-serif;
+/* border-collapse: collapse; */
+width: 100%;
+/* background-color: #fff; */
+/* font-size: 1rem;} */
+border-spacing: 10;
+}
+
+h2{
+    font-size: italic ;
+    text-align: center;
+    font-size: 1cm;
+    text-decoration: underline;
+}
+
+
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+#divisor{
+    border-top: 3px solid #bbb;
+    }
+
+    p { font-family: Arial, Helvetica, sans-serif;
+    }
+    
+#final{
+    background-color:white;
+    color: black;
+    display: inline-flex;
+    }
+    
+#enlaces{
+    width: 20%;
+    display: block;
+}
+
+#contacto{
+    width: 30%;
+    display: block;
+}
+
+#mailcontacto{
+    text-align: center;
+}
+
+#redes{
+    width: 20%;
+    display: block;
+}
+
+#derechos{
+    width: 30%;
+    display: block;
+}
+
+#copy{
+    text-align: center;
+    }
+
+@media only screen and (max-width: 650px) { 
+
+    #final{
+        display: none;
+    }
+}
