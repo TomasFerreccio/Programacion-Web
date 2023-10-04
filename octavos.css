@@ -2,6 +2,12 @@ body{
     background-color: beige;
 }
 
+#napvar{
+    color: black; 
+    background-color: rgb(255, 255, 220);
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-style: italic;
+}
 
 #encabezado{
     top: 0;
@@ -20,12 +26,31 @@ body{
 } 
 
 
+
 .flex-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-around;
     
+}
+
+#resumen{
+    color: black; 
+    text-align: center;
+    font-size: 4cm; 
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#video{
+
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
 }
 
 h3{
@@ -49,4 +74,62 @@ img{
 #resultado{
     text-align: center;
     font-size: 600%;
+}
+
+#divisor{
+    border-top: 3px solid #bbb;
+}
+
+#final{
+background-color:white;
+color: black;
+display: inline-flex;
+}
+
+#enlaces{
+width: 20%;
+display: block;
+}
+
+#contacto{
+width: 30%;
+display: block;
+}
+
+#mailcontacto{
+text-align: center;
+}
+
+#redes{
+width: 20%;
+display: block;
+}
+
+#derechos{
+width: 30%;
+display: block;
+}
+
+#copy{
+text-align: center;
+}
+
+a{text-align: center;
+    color: black;  
+}
+
+@media only screen and (max-width: 650px) { 
+
+#final{
+    display: none;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 }

@@ -99,6 +99,10 @@ tbody {
     text-align: center;
     }
 
+a{text-align: center;
+    color: black;  
+}
+
 @media only screen and (max-width: 650px) { 
 
     #final{
