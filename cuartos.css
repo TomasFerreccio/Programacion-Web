@@ -14,6 +14,12 @@ body{
     padding: 5px;
 }
 
+
+#logotipo{
+    width: 90px;
+    border: none;
+}
+
 #titulo{
     color: black; 
     background-color: rgb(255, 255, 220);
@@ -68,10 +74,15 @@ h3{
     text-decoration: underline;
 }
 
+#penales{
+    text-align: center;
+    color: solid black;
+    font-size: 400%;
+}
 
 img{
     width: auto;
-    height: 65%;
+    height: 45%;
     border: 1px solid goldenrod;
     
 }

@@ -1,12 +1,151 @@
+body{
+  background-color: beige;
+}
 
-body{ background-color: beige;}
+#napvar{
+  color: black; 
+  background-color: rgb(255, 255, 220);
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-style: italic;
+}
+
+#encabezado{
+  top: 0;
+  padding: 5px;
+}
 
 
-h1{text-align: center;}
+#logotipo{
+  width: 90px;
+  border: none;
+}
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-  }
+#titulo{
+  color: black; 
+  background-color: rgb(255, 255, 220);
+  border: 3px solid black; 
+  margin: 45px 45px 45px 45px; 
+  text-align: center;
+  font-size: 1.1cm; 
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-style: italic;
+} 
+
+
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  
+}
+
+#resumen{
+  color: black; 
+  text-align: center;
+  font-size: 4cm; 
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#video{
+
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+h3{
+  text-align: center;
+}
+#p1{
+  text-align: left;
+}
+#p2{
+  text-align: right;
+}
+
+#p3{
+  text-align: center;
+  text-decoration: underline;
+}
+
+#penales{
+  text-align: center;
+  color: solid black;
+  font-size: 400%;
+}
+
+img{
+  width: auto;
+  height: 40%;
+  border: 1px solid goldenrod;
+  
+}
+
+#resultado{
+  text-align: center;
+  font-size: 600%;
+}
+
+#divisor{
+  border-top: 3px solid #bbb;
+}
+
+#final{
+background-color:white;
+color: black;
+display: inline-flex;
+}
+
+#enlaces{
+width: 20%;
+display: block;
+}
+
+#contacto{
+width: 30%;
+display: block;
+}
+
+#mailcontacto{
+text-align: center;
+}
+
+#redes{
+width: 20%;
+display: block;
+}
+
+#derechos{
+width: 30%;
+display: block;
+}
+
+#copy{
+text-align: center;
+}
+
+a{text-align: center;
+  color: black;  
+}
+
+@media only screen and (max-width: 650px) { 
+
+#final{
+  display: none;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+}

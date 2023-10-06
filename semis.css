@@ -14,6 +14,11 @@ body{
     padding: 5px;
 }
 
+#logotipo{
+    width: 90px;
+    border: none;
+}
+
 #titulo{
     color: black; 
     background-color: rgb(255, 255, 220);
@@ -130,13 +135,18 @@ a{text-align: center;
     align-items: center;
     align-content: center;
 }
-
+/* 
 #video{
-
     display: flex;
     height: 100px;
     justify-content: center;
     align-items: center;
+} */
+
+#yutu{
+
+    width: auto;
+    height: 400px
 }
 
 }

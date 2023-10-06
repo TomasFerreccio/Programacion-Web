@@ -57,6 +57,9 @@ tbody {
     border-color: inherit;
 }
 
+#logotipo{
+    width: 90px;
+}
 
 #divisor{
     border-top: 3px solid #bbb;
@@ -103,7 +106,16 @@ a{text-align: center;
     color: black;  
 }
 
+.card{
+    background-color: beige;
+}
+
 @media only screen and (max-width: 650px) { 
+
+
+    .card{
+        text-align: center;
+    }
 
     #final{
         display: none;

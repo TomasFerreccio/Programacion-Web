@@ -14,6 +14,12 @@ body{
     padding: 5px;
 }
 
+#logotipo{
+    width: 90px;
+    border: none;
+}
+
+
 #titulo{
     color: black; 
     background-color: rgb(255, 255, 220);
