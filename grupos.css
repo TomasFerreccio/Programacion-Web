@@ -69,7 +69,7 @@ tbody {
     }
     
 #final{
-    background-color:white;
+    background-color: rgb(255, 255, 220);
     color: black;
     display: inline-flex;
     }
@@ -104,6 +104,11 @@ tbody {
 
 a{text-align: center;
     color: black;  
+}
+
+
+h3{
+    text-align: center;
 }
 
 .card{

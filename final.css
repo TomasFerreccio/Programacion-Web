@@ -97,7 +97,7 @@ img{
 }
 
 #final{
-background-color:white;
+background-color:  rgb(255, 255, 220);
 color: black;
 display: inline-flex;
 }
