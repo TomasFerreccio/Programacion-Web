@@ -9,10 +9,6 @@ body{
     font-style: italic;
 }
 
-#encabezado{
-    top: 0;
-    padding: 5px;
-}
 
 #logotipo{
     width: 90px;
@@ -20,17 +16,21 @@ body{
 }
 
 
+#encabezado{
+    top: 0;
+    padding: 2px;
+}
+
 #titulo{
     color: black; 
     background-color: rgb(255, 255, 220);
-    border: 3px solid black; 
-    margin: 45px 45px 45px 45px; 
+    border: 2px solid black; 
+    margin: 20px 20px 20px 20px; 
     text-align: center;
     font-size: 1.1cm; 
     font-family: 'Reem Kufi Fun', sans-serif;
     font-style: italic;
 } 
-
 
 
 .flex-container{
