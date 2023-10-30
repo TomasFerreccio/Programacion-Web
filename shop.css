@@ -1,0 +1,191 @@
+body{
+    background-color:beige
+    }
+
+body{color: black;}
+
+#encabezado{
+    /* position: sticky; */
+    top: 0;
+    padding: 2px;
+
+}
+
+#logotipo{
+    width: 90px;
+}
+
+#titulo{
+    color: black; 
+    background-color: rgb(255, 255, 220);
+    border: 2px solid black; 
+    margin: 20px 20px 20px 20px; 
+    text-align: center;
+    font-size: 1.1cm; 
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-style: italic;
+}
+
+#napvar{
+    color: black; 
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-style: italic;
+}
+
+#fotolog{
+    width: 50%
+}
+
+#p1{
+
+    font-size: 0.5cm;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    text-decoration: italic;
+}
+
+
+a{text-align: center;
+    color: black;  
+}
+
+h3{text-align: center;}
+p{text-align: center;}
+
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.card-img-top{
+    max-width: 100%;
+    height: auto;
+}
+
+p { font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    background-color: black
+}
+
+.card-body{
+
+    color: white;
+}
+
+#final{
+    background-color: rgb(255, 255, 220);
+    color: black;
+    display: inline-flex;
+}
+
+#enlaces{
+    width: 20%;
+    display: block;
+    
+}
+
+#contacto{
+    width: 30%;
+    display: block;
+}
+
+#mailcontacto{
+    text-align: center;
+}
+
+#redes{
+    width: 20%;
+    display: block;
+}
+
+#derechos{
+    width: 30%;
+    display: block;
+}
+
+#copy{
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+    color: black; 
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#links{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: space-around;
+
+}
+
+
+
+
+/* .flex-container {
+    display: flex;
+    background-color: beige;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: stretch;
+}
+ */
+
+/* .card-img-top{ 
+    height: 400px; 
+    width: 400px;
+}
+
+.d-block{
+    height: 450px; 
+    width: 450px;
+}
+
+.btn-primary{
+    background-color: white;
+    color: black;
+}
+
+#imgpie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+} */
+
+/* /* .card-img-top{ 
+    height: 400px; 
+    width: 400px;
+} */
+
+.card-img-top{
+    height: 300px;
+    width: 300px;
+}
+
+
+@media only screen and (max-width: 650px) { 
+
+    #final{
+    display: none;
+    }
+
+
+    .img1{
+    width: 150px;
+    height: 250px;
+    }
+}
