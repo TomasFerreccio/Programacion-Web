@@ -69,12 +69,12 @@ p { font-family: Arial, Helvetica, sans-serif;
 }
 
 .card{
-    background-color: black
+    background-color: white
 }
 
 .card-body{
 
-    color: white;
+    color: black;
 }
 
 #final{
