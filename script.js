@@ -1,37 +1,63 @@
-// ARRAY
+const shopContent = document.getElementById("shopContent");
+const verCarrito = document.getElementById("verCarrito");
+const modalContainer = document.getElementById("modal-container")
 
-const PROFESOR = ["esteban", 1, 9 ,10,11, 30 , "profe"]
-PROFESOR.push("messi")
+let carrito = [];
 
-PROFESOR.pop()
-// el pop elimina siempre el ultimo elemento
+merch.forEach((merch)=>{
+    let content = document.createElement("div");
+    content.className = "card";
+    content.innerHTML = `
+        <img src="${merch.img}">
+        <h3>${merch.nombre}</h3>
+        <p class="precio">${merch.precio}$</p>
+    `;
+
+    shopContent.append(content);
 
 
-const found = PROFESOR.find((element) => element > 10)
+    let comprar = document.createElement("button")
+    comprar.innerText = "Comprar";
+    comprar.className = "comprar"
 
-console.log(PROFESOR[6])
-console.log(found)
+    content.append(comprar);
 
-// IMC
+    comprar.addEventListener("click", () =>{
+        carrito.push({
+            id: merch.id,
+            img: merch.img,
+            nombre: merch.nombre,
+            precio: merch.precio,
+        })
+    console.log(carrito);
+    })
+});
 
-function imc(peso,altura){
-    return peso/(altura*altura)
-}
+verCarrito.addEventListener("click", () => {
 
-console.log(imc(84,1.84))
+    const modalHeader = document.createElement("div");
+    modalHeader.className = "modal-header"
+    modalHeader.innerHTML = `
+        <h1 class="modal-header-title"> Carrito </h1>
+    `;
+    modalContainer.append(modalHeader);
 
-// COMPARACION FUERTE
+    const modalbutton = document.createElement("h1");
+    modalbutton.innerText = "x"
+    modalbutton.className = "modal-header-button";
 
-function comparacion_fuerte(n1,n2){
-    return n1 === n2
-}
+    modalHeader.append(modalbutton);
 
-// COMPARACION DEBIL
+    carrito.forEach((merch) =>{
 
-console.log(comparacion_fuerte(5,"5"))
-
-function comparacion_debil(n1,n2){
-    return n1 == n2
-}
-
-console.log(comparacion_debil(5,"5"))
+    let carritoContent = document.createElement("div")
+    carritoContent.className = "modal-content"
+    carritoContent.innerHTML = `
+    <img src="${merch.img}">
+    <h3> ${merch.nombre} </h3>
+    <p> ${merch.precio} $ </p>
+    `;
+    
+    modalContainer.append(carritoContent)
+    }); 
+});
