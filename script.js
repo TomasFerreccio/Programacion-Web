@@ -34,7 +34,8 @@ merch.forEach((merch)=>{
 });
 
 verCarrito.addEventListener("click", () => {
-
+    modalContainer.innerHTML= "";
+    modalContainer.style.display = "flex"
     const modalHeader = document.createElement("div");
     modalHeader.className = "modal-header"
     modalHeader.innerHTML = `
@@ -46,6 +47,10 @@ verCarrito.addEventListener("click", () => {
     modalbutton.innerText = "x"
     modalbutton.className = "modal-header-button";
 
+    modalbutton.addEventListener("click", () => {
+        modalContainer.style.display = "none"
+    });
+
     modalHeader.append(modalbutton);
 
     carrito.forEach((merch) =>{
@@ -55,9 +60,16 @@ verCarrito.addEventListener("click", () => {
     carritoContent.innerHTML = `
     <img src="${merch.img}">
     <h3> ${merch.nombre} </h3>
-    <p> ${merch.precio} $ </p>
+    <p id="plata"> ${merch.precio} $ </p>
     `;
     
     modalContainer.append(carritoContent)
     }); 
+
+    const total = carrito.reduce((acc, el) => acc + el.precio, 0)
+
+    const totalcompra = document.createElement("div")
+    totalcompra.className = "total-content"
+    totalcompra.innerHTML = `Total a Pagar: ${total}$`
+    modalContainer.append(totalcompra)
 });

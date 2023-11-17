@@ -28,7 +28,7 @@ body{
 }
 
 #grupos{
-font-family: arial,sans-serif;
+
 /* border-collapse: collapse; */
 width: 100%;
 /* background-color: #fff; */
@@ -37,10 +37,11 @@ border-spacing: 10;
 }
 
 h2{
-    font-size: italic ;
+    font-family: sans-serif;
     text-align: center;
     font-size: 1cm;
-    text-decoration: underline;
+    text-decoration: none;
+    font-style: italic;
 }
 
 
@@ -104,6 +105,7 @@ tbody {
 
 a{text-align: center;
     color: black;  
+    text-decoration: none;
 }
 
 #imgpie {
@@ -120,6 +122,31 @@ h3{
 
 .card{
     background-color: rgb(152, 220, 242);
+
+}
+
+.card1{
+    background-color: rgb(152, 220, 242);
+}
+
+#solapas{
+    padding: 10px  10px;
+    column-gap: 15px;
+    margin-right: 60px;
+}
+
+.card-img-top{
+
+    width: auto;
+    height: 180px;
+}
+
+.cards-wrapper{
+    column-gap: 30px;
+    justify-content: space-around;
+    width: 70%;
+    align-items: stretch;
+
 }
 
 @media only screen and (max-width: 650px) { 

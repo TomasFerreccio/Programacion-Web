@@ -44,9 +44,20 @@ body{color: black;}
 }
 
 
-a{text-align: center;
-  color: black;  
-  
+#url{text-align: center;
+  color: black; 
+  text-decoration: none; 
+  text-shadow: 2px 2px 5px lightblue;
+}
+
+a{
+  text-align: center;
+  color: black; 
+  text-decoration: none;
+}
+
+#patria{
+  width: 15%;
 }
 
 h3{text-align: center;}
@@ -176,13 +187,6 @@ h5{
   height: auto;
 }
 
-
-/* #A{
-
-  height: 500px;
-  width: 10px;
-
-} */
 
 @media only screen and (max-width: 650px) { 
 

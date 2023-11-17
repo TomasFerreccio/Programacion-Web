@@ -132,7 +132,8 @@ text-align: center;
 }
 
 a{text-align: center;
-  color: black;  
+  color: black;
+  text-decoration: none;  
 }
 
 #imgpie {

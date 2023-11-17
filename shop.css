@@ -5,7 +5,6 @@ body{
 body{color: black;}
 
 #encabezado{
-    /* position: sticky; */
     top: 0;
     padding: 2px;
 
@@ -43,7 +42,8 @@ body{color: black;}
     text-decoration: italic;
 }
 
-img {
+
+#finalisima {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -54,27 +54,7 @@ a{text-align: center;
     color: black;  
 }
 
-h3{text-align: center;}
-p{text-align: center;}
-
-
-
-/* .card-img-top{
-    max-width: 100%;
-    height: auto;
-}
-
-p { font-family: Arial, Helvetica, sans-serif;
-} */
-
-/* .card{
-    background-color: white
-}
-
-.card-body{
-
-    color: black;
-} */
+#foot{text-align: center;}
 
 #final{
     background-color: rgb(255, 255, 220);
@@ -111,13 +91,6 @@ p { font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-h5{
-    text-align: center;
-    color: black; 
-    font-family: 'Reem Kufi Fun', sans-serif;
-    font-style: italic;
-    font-size: 25px;
-}
 
 #links{
 
@@ -129,21 +102,20 @@ h5{
 
 }
 
-.card-img-top{
-    height: 300px;
-    width: 300px;
-}
+
 
 
 /* ESTILOS PRODUCTOS JAVA */
 
 .shop-content {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
     margin-top: 100px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-bottom: 100px;
 }
 
@@ -170,7 +142,7 @@ h5{
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: black;
+    background-color: rgb(233, 204, 43);
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -178,12 +150,85 @@ h5{
 }
 
 .card button:hover{
-
     opacity: 0.7;
+    background-color: lightblue;
 }
 
-.verCarrito{
-    width: 200%;
+.card button:active{
+    background-color: lightblue;
+    box-shadow: 0 5px lightblue;
+    transform: translateY(4px);
+}
+
+/* ESTILOS MODAL DE COMPRAS */
+
+.modal-container{
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    color: black;
+    background-color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 12vh;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    background-color:rgb(255, 217, 2);
+    color: black;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.modal-header-title {
+    justify-self: start;
+}
+
+.modal-header-button{
+    cursor: pointer;
+}
+
+.modal-container > .modal-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+    
+    
+}
+
+.modal-container > div > img{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    
+}
+
+.total-content{
+    font-size: 25px;
+    padding: 20px;
+    text-align: right;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif
+
+}
+
+.modal-container > div > p{
+    font-size: 25px;
+    text-align: center;
 }
 
 

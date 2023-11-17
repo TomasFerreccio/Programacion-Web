@@ -16,15 +16,44 @@ const merch = [
     
     {
         id: 3,
-        nombre: "Camiseta Dibu Martinez",
+        nombre: "Camiseta Jugador",
         precio: 35000,
-        img: "img/DIBU.jpg",
+        img: "img/player.avif",
     },
     
     {
         id: 4,
         nombre: "Camiseta Leo Messi",
         precio: 35000,
-        img: "img/camisamessi.png",
+        img: "img/messi1.00.webp",
     },
-    ];
+
+    // {
+    //     id: 5,
+    //     nombre: "Camiseta Leo Messi",
+    //     precio: 35000,
+    //     img: "img/messi1.00.webp",
+    // },
+
+    // {
+    //     id: 6,
+    //     nombre: "Camiseta Leo Messi",
+    //     precio: 35000,
+    //     img: "img/messi1.00.webp",
+    // },
+
+    // {
+    //     id: 7,
+    //     nombre: "Camiseta Leo Messi",
+    //     precio: 35000,
+    //     img: "img/messi1.00.webp",
+    // },
+
+    // {
+    //     id: 8,
+    //     nombre: "Camiseta Leo Messi",
+    //     precio: 35000,
+    //     img: "img/messi1.00.webp",
+    // },
+
+];
