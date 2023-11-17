@@ -200,6 +200,7 @@ h5{
     justify-content: center;
     align-items: center;
     align-content: center;
+    row-gap: 25px;
   }
 
   .img1{
