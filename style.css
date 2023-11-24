@@ -21,7 +21,7 @@ body{color: black;}
   margin: 20px 20px 20px 20px; 
   text-align: center;
   font-size: 1.1cm; 
-  font-family: 'Reem Kufi Fun', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
 }
 
@@ -60,7 +60,9 @@ a{
   width: 15%;
 }
 
-h3{text-align: center;}
+h3{text-align: center;
+font-family: 'Times New Roman', Times, serif}
+
 p{text-align: center;}
 
 #divisor{
@@ -97,6 +99,11 @@ p { font-family: Arial, Helvetica, sans-serif;
   display: inline-flex;
 }
 
+ul{
+  list-style-type: none;
+}
+
+
 #enlaces{
   width: 20%;
   display: block;
@@ -115,6 +122,7 @@ p { font-family: Arial, Helvetica, sans-serif;
 #redes{
   width: 20%;
   display: block;
+  text-align: center;
 }
 
 #derechos{
@@ -186,6 +194,8 @@ h5{
   width: 50%;
   height: auto;
 }
+
+
 
 
 @media only screen and (max-width: 650px) { 

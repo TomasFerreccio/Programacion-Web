@@ -106,9 +106,14 @@ display: block;
 text-align: center;
 }
 
+ul{
+    list-style-type: none;
+}
+
 #redes{
 width: 20%;
 display: block;
+text-align: center;
 }
 
 #derechos{

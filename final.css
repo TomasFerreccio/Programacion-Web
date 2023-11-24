@@ -120,7 +120,13 @@ text-align: center;
 #redes{
 width: 20%;
 display: block;
+text-align: center;
 }
+
+ul{
+  list-style-type: none;
+}
+
 
 #derechos{
 width: 30%;

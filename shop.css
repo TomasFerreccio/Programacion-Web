@@ -77,9 +77,15 @@ a{text-align: center;
     text-align: center;
 }
 
+ul{
+    list-style-type: none;
+}
+
+
 #redes{
     width: 20%;
     display: block;
+    text-align: center;
 }
 
 #derechos{
@@ -117,6 +123,8 @@ a{text-align: center;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 100px;
+    column-gap: 50px;
+    row-gap: 80px;
 }
 
 .card{
